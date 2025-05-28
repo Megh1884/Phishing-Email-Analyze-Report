@@ -1,0 +1,49 @@
+# 🛡️ Phishing Email Analysis Report
+
+## 📧 Email Summary
+
+- **From**: "Microsoft Support" <security@m1crosoft-support.com>
+- **To**: you@example.com
+- **Subject**: Urgent! Your Account Will Be Locked
+
+---
+
+## ⚠️ Phishing Indicators Identified
+
+| Indicator | Explanation |
+|----------|-------------|
+| Fake sender address | Domain `m1crosoft-support.com` is fake; typo of Microsoft |
+| Urgent tone | "Your account will be locked in 24 hours" to create panic |
+| Suspicious link | Hovered link is `m1crosoft-helpdesk.ru`, not Microsoft |
+| Generic greeting | No personalized name, just "Dear User" |
+| Bad grammar | "we will suspend your account" instead of "we may suspend" |
+| No official contact info | No phone, address, or footer branding |
+
+---
+
+## 🔍 Header Analysis (Optional)
+
+- SPF Failed  
+- IP Location: Russia  
+- Sending Server: Unknown mail relay
+
+---
+
+## 🧪 Tools Used
+
+- Notepad (to view email)
+- MxToolbox Email Header Analyzer
+- VirusTotal (link check)
+
+---
+
+## ✅ Conclusion
+
+This email is **highly suspicious** and should not be trusted. It displays multiple phishing red flags and uses social engineering tactics to trick users.
+
+---
+
+## 🗂️ Files Included
+
+- `phishing_sample.txt` – raw email
+- `phishing_report.md` – this report
